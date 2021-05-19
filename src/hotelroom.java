@@ -3,11 +3,14 @@ public class hotelroom {
     private seize Seize;
     private bed Bed;
     private boolean Television;
+    private String View;
 
-    public hotelroom(seize seize, bed bed, boolean television) {
+    public hotelroom(seize seize, bed bed, boolean television, String view) {
         Seize = seize;
         Bed = bed;
         Television = television;
+        View = view;
+        
     }
 
     public seize getSeize() {
@@ -17,5 +20,6 @@ public class hotelroom {
     public bed getBed() {
         return Bed;
     }
+    
 }
 
